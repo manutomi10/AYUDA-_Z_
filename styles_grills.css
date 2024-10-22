@@ -1,0 +1,66 @@
+body, html {
+    background-image: url("images/fondogrill.png");
+    background-size: cover; /* O "contain", según lo que necesites */
+    background-repeat: no-repeat;     
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.volver{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+i{
+    font-size: 250%;
+}
+
+span{
+    width: 10%
+}
+h1{
+    font-size: 5vh;
+}
+h2{
+    font-size: 3vh;
+}
+
+.btn{
+    background: none;
+}
+.container-secundario{
+    width: 90%;
+}
+
+.container-tres{
+    width: 55%;
+}
+.middle-image{
+    width: 20%;
+    max-height: 16vh;
+}
+
+.container-final{
+    width: 90%;
+}
+
+.static-image{
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+.termostato{
+    width: 80%;
+}
+
+.ahkyholters{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}

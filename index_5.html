@@ -25,7 +25,10 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             color: var(--text-color);
+            
+            box-sizing: border-box;
             height: 100%;
+            width: 100%;
         }
 
         .container {
@@ -152,7 +155,7 @@
             const telefono = document.getElementById('telefono').value;
         
             // Hacer la solicitud POST
-            fetch("http://192.168.3.5:1880/hola", {
+            /*fetch("http://192.168.3.5:1880/hola", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -165,7 +168,8 @@
             })
             .catch((error) => {
                 console.error('Error:', error);
-            });
+            });*/
+            window.location.href = "index_tp_final_1.html";
         }
         
         </script>
